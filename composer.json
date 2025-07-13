@@ -1,21 +1,17 @@
 {
-  "name": "kiss-php/framework",
-  "type": "library",
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "KissPhp\\": "src/",
-      "KissPhp\\Config\\": "config/",
-      "KissPhp\\Protocols\\": "src/Core/Protocols/"
-    }
-  },
-  "authors": [
-    { "name": "ItaloBrazucaDeveloper" }
-  ],
-  "require": {
-    "doctrine/orm": "^3",
-    "doctrine/dbal": "^4",
-    "symfony/cache": "^7",
-    "twig/twig": "^3.21.1"
-  }
+    "name": "skeleton/kiss-php",
+    "description": "A skeleton (Template) to kiss-php project",
+    "type": "skeleton",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skeleton\\KissPhp\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ItaloBrazucaDeveloper"
+        }
+    ],
+    "require": {}
 }
