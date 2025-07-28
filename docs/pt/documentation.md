@@ -1,6 +1,14 @@
-## **Funcionalidades**
+# **Documentação**
 
-### **Sistema de Rotas**
+## **Índice**
+
+[Sistema de Rotas](docs/pt/rotas.md)  
+[Capturar Requisições](docs/pt/requests.md)  
+[Middlewares](docs/pt/middlewares.md)  
+[Captura de Erros](docs/pt/errors.md)  
+[Higiene de dados](docs/pt/security.md)  
+
+## **Sistema de Rotas**
 
 - **Rotas declarativas**: A attribute `#[Controller]` *define um prefixo para todas* as rotas do controlador.
 
@@ -174,12 +182,12 @@ class ProductController extends WebController {
 Quando um erro lançado e não tratado, não tiver um correspondente na pasta 'app/Views/Pages/[errors]', o DED exibe a página de erro padrão: `default.twig`. Em todas as páginas de erro, é mandado o parâmetro `errors` com os erros que foram lançados.
 
 ### **Higiene de dados**
-O KissPhp fornece uma estrutura para validação de dados. Essa estrutura permite validar dados - de DTOs - de forma simples e fácil. Para validar um objeto DTO, basta anotá-lo com a attribute `Validate` e passar o nome do validador que deseja usar.
+O KissPhp fornece uma estrutura para validação de dados. Essa estrutura permite validar dados de forma simples e fácil. Para validar um objeto DTO, basta anotá-lo com a attribute `Validate` e passar o nome do validador que deseja usar.
 
 Exemplo de Validador:
 
 ```php
-class Email extends DataValidator {
+class Email extends Va {
    public __construct(private string $email) { }
 
    public function check(): array {
@@ -198,9 +206,10 @@ class Email extends DataValidator {
 }
 ```
 
-Como usar em uma classe, neste caso uma DTO:
+Como usar em uma classe, neste caso, em uma DTO:
 
 ```php
+#[DTO]
 class RegisterUser {
    #[Validate(Email::class)]
    public readonly string $email;

@@ -1,6 +1,12 @@
 <div align="center">
 
-  ## **- 😘 KISS PHP -**
+  <h3 style="display: inline;">
+    <img src="./kiss-php.webp" alt="ícone do framework" height="32" width="32">
+    <strong>KISS-PHP</strong>
+  </h3>
+
+  ---
+  
   Framework web para php que segue a metodologia **kiss** (**K**eep **I**t **S**tupid **S**imple).
   
   ![PHP](https://img.shields.io/badge/PHP-8.4-purple)
@@ -16,14 +22,6 @@
 
 KISS PHP é um framework simples, sendo uma uma alternativa aos frameworks php complexos e tradicionais, que seguem arquiteturas robustas mas que podem ser excessivas para projetos menores.
 
-## 📋 Índice
-
-- [🚀 Instalação](#-instalação)
-- [🎯 Recursos](#-recursos)
-- [📖 Documentação](#-documentação)
-- [🤝 Contribuindo](#-contribuindo)
-- [📄 Licença](#-licença)
-
 ## 🚀 Instalação
 
 ```bash
@@ -32,20 +30,10 @@ cd meu-projeto
 php -S localhost:8000
 ```
 
-## 🎯 Recursos
-
-| Recurso | Descrição |
-|---------|-----------|
-| [Sistema de Rotas](docs/pt/rotas.md) | Roteamento simples e intuitivo |
-| [Capturar Requisições](docs/pt/requests.md) | Manipulação fácil de requests HTTP |
-| [Middlewares](docs/pt/middlewares.md) | Sistema de middlewares leve |
-| [Captura de Erros](docs/pt/errors.md) | Tratamento elegante de erros |
-| [Higiene de dados](docs/pt/security.md) | Validação e sanitização |
-
 ## 📖 Documentação
 
 ### 🇧🇷 Português
-- [📚 Documentação Completa](docs/pt/README.md)
+- [📚 Documentação Completa](docs/pt/documentation.md)
 - [🚀 Guia de Início Rápido](docs/pt/quickstart.md)
 - [🔧 Exemplos](docs/pt/examples.md)
 
@@ -65,9 +53,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 <div align="center">
-  
-**[⬆ Voltar ao topo](#-kiss-php)**
+    
+  **[⬆ Voltar ao topo](#-kiss-php)**
 
-Feito com 💜 no Brasil
+  Feito com 💜 no Brasil
 
 </div>
