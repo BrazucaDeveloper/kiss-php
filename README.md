@@ -10,9 +10,9 @@
   Framework web para php que segue a metodologia **kiss** (**K**eep **I**t **S**tupid **S**imple).
   
   ![PHP](https://img.shields.io/badge/PHP-8.4-purple)
-  ![Version](https://img.shields.io/badge/last-version-alpha_0.1-orange)
-  ![Made In](https://img.shields.io/badge/Made_In-Brazil-yellow)
-  ![Status](https://img.shields.io/badge/Status-Development-gold)
+  ![Version](https://img.shields.io/badge/last_version-alpha_0.1-orange)
+  ![Made In](https://img.shields.io/badge/Made_In-Brazil-green)
+  ![Status](https://img.shields.io/badge/Status-Development-red)
 
   [🇧🇷 Documentação em Português](README.md) | [🇺🇸 English Documentation](README.en.md)
   
