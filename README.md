@@ -1,8 +1,8 @@
-<div align="center">
+<div>
 
   <div>
     <img src="./kiss-php.webp" alt="ícone do framework" height="40" width="40">
-    <span style="font-size: 1.4rem;"><strong>KISS-PHP<strong/></span>
+    <span style="font-size: 1.4rem;"><strong>KISS-PHP</strong></span>
   </div>
 
   Framework web para php que segue a metodologia **kiss** (**K**eep **I**t **S**tupid **S**imple).
