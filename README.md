@@ -1,21 +1,21 @@
 <div align="center">
 
-  <h3 style="display: inline;">
-    <img src="./kiss-php.webp" alt="ícone do framework" height="32" width="32">
-    <strong>KISS-PHP</strong>
-  </h3>
+  <div>
+    <img src="./kiss-php.webp" alt="ícone do framework" height="40" width="40">
+    <span style="font-size: 1.4rem;"><strong>KISS-PHP<strong/></span>
+  </div>
+
+  Framework web para php que segue a metodologia **kiss** (**K**eep **I**t **S**tupid **S**imple).
 
   ---
-  
-  Framework web para php que segue a metodologia **kiss** (**K**eep **I**t **S**tupid **S**imple).
-  
+
+  [🇧🇷 Documentação em Português](README.md) | [🇺🇸 English Documentation](README.en.md)
+
   ![PHP](https://img.shields.io/badge/PHP-8.4-purple)
   ![Version](https://img.shields.io/badge/last_version-alpha_0.1-orange)
   ![Made In](https://img.shields.io/badge/Made_In-Brazil-green)
   ![Status](https://img.shields.io/badge/Status-Development-red)
 
-  [🇧🇷 Documentação em Português](README.md) | [🇺🇸 English Documentation](README.en.md)
-  
 </div>
 
 ## 🧠 Motivação
