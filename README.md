@@ -22,14 +22,6 @@
 
 KISS PHP é um framework simples, sendo uma uma alternativa aos frameworks php complexos e tradicionais, que seguem arquiteturas robustas mas que podem ser excessivas para projetos menores.
 
-## 🚀 Instalação
-
-```bash
-composer create-project kiss-php/framework meu-projeto
-cd meu-projeto
-php -S localhost:8000
-```
-
 ## 📖 Documentação
 
 ### 🇧🇷 Português
