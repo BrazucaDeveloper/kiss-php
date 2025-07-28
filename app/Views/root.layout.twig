@@ -8,7 +8,8 @@
         <title>{{ title|default('Default title') }}</title>
         <meta name="description" content="{{ description|default('Default description') }}">
 
-        {% block styles %} {% endblock %}
+        <link rel="stylesheets" href="/assets/css/global.css">
+        {% block styles %}{% endblock %}
     </head>
 
     <body>
