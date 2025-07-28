@@ -1,12 +1,18 @@
-# **Documentação**
+<div>
+   <img src="../../kiss-php.webp" alt="ícone do framework" height="40" width="40">
+   <span style="font-size: 1.4rem;"><strong>KISS-PHP</strong></span>
+</div>
+
+## Documentação
+Este documento abrange cada funcionalidade/peculiaridade do framework kiss-php. Para ver exemplos, com casos de uso, veja o _[documento com exemplos](./exemplos.md)_, ou, para ver o guia de ínicio rápido veja o _[documento de guia rápido](./guia-rapido.md)_.
 
 ## **Índice**
 
-[Sistema de Rotas](docs/pt/rotas.md)  
-[Capturar Requisições](docs/pt/requests.md)  
-[Middlewares](docs/pt/middlewares.md)  
-[Captura de Erros](docs/pt/errors.md)  
-[Higiene de dados](docs/pt/security.md)  
+- [Sistema de Rotas](docs/pt/rotas.md)  
+- [Capturar Requisições](docs/pt/requests.md)  
+- [Middlewares](docs/pt/middlewares.md)  
+- [Captura de Erros](docs/pt/errors.md)  
+- [Higiene de dados](docs/pt/security.md)  
 
 ## **Sistema de Rotas**
 
