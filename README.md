@@ -20,10 +20,6 @@
 
 KISS PHP é um framework simples, sendo uma uma alternativa aos frameworks php complexos e tradicionais, que seguem arquiteturas robustas mas que podem ser excessivas para projetos menores.
 
-## Estrutura de pastas inicial
-
-
-
 ## 📖 Documentação
 
 - [📚 Documentação Completa](docs/pt/documentation.md)
