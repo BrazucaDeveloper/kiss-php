@@ -193,7 +193,7 @@ O KissPhp fornece uma estrutura para validação de dados. Essa estrutura permit
 Exemplo de Validador:
 
 ```php
-class Email extends Va {
+class Email extends DataValidator {
    public __construct(private string $email) { }
 
    public function check(): array {
@@ -215,7 +215,6 @@ class Email extends Va {
 Como usar em uma classe, neste caso, em uma DTO:
 
 ```php
-#[DTO]
 class RegisterUser {
    #[Validate(Email::class)]
    public readonly string $email;

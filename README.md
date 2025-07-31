@@ -9,8 +9,6 @@
 
   ---
 
-  [🇧🇷 Documentação em Português](README.md) | [🇺🇸 English Documentation](README.en.md)
-
   ![PHP](https://img.shields.io/badge/PHP-8.4-purple)
   ![Version](https://img.shields.io/badge/last_version-alpha_0.1-orange)
   ![Made In](https://img.shields.io/badge/Made_In-Brazil-green)
@@ -22,17 +20,14 @@
 
 KISS PHP é um framework simples, sendo uma uma alternativa aos frameworks php complexos e tradicionais, que seguem arquiteturas robustas mas que podem ser excessivas para projetos menores.
 
+## Estrutura de pastas inicial
+
+
+
 ## 📖 Documentação
 
-### 🇧🇷 Português
 - [📚 Documentação Completa](docs/pt/documentation.md)
 - [🚀 Guia de Início Rápido](docs/pt/quickstart.md)
-- [🔧 Exemplos](docs/pt/examples.md)
-
-### 🇺🇸 English
-- [📚 Full Documentation](docs/en/README.md)
-- [🚀 Quick Start Guide](docs/en/quickstart.md)
-- [🔧 Examples](docs/en/examples.md)
 
 ## 🤝 Contribuindo
 
@@ -44,9 +39,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-<div align="center">
-    
-  **[⬆ Voltar ao topo](#-kiss-php)**
+<div align="center"> 
 
   Feito com 💜 no Brasil
 
